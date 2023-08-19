@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------------------------Navbar------------------------------------------ */
+nav{
+    background: #fff!important;
+    box-shadow: 1px 1px 2px #460a2844;
+}
+nav .navbar-brand{
+    color: purple!important;
+}
+.navbar-nav .nav-link{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none!important;
+    padding: none!important;
+ }
+ /* ---------------------------------navbar over------------------------------------ */
+
+
+ /* ------------------------------------carousel------------------------------------- */
+ .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+ .carousel-inner .carousel-item::before{
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+ }
+ .carousel-inner .carousel-caption {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 38%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+ }
+ .carousel-inner .carousel-caption span{
+    color: purple;
+ }
+ .carousel-inner .carousel-caption h1{
+    width: 80%;
+    margin:0px auto 10px auto ;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 42px;
+
+ }
+ .carousel-inner .carousel-caption p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+ }
+
+ /* @media(max-width: 700px) 
+ {
+    .carousel-inner .carousel-caption h1{
+        font-size: 38px;}
+ }
+ @media(max-width: 500px)
+ {
+    .carousel-inner .carousel-caption h1{
+        font-size: 25px;
+
+    }
+    .carousel-inner .carousel-caption p{
+        font-size: 25px;
+        
+    }
+ }
+
+ /* --------------------------------------section heading---------------------------------- */
+ .section-heading{
+    color: purple;
+ }
+
+ /* -----------------------------------------------courses------------------------------------------- */
+
+ .course .box{
+    padding: 10px 10px;
+    box-shadow: 0px 2px 15px rgba(0 ,0 ,0 ,0.1);
+ }
+
+ /* -----------------footer-------------- */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+.fa-heart-o {
+    color: #f44336;
+}

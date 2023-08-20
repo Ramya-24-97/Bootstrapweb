@@ -1,5 +1,8 @@
-body {
+* {
     font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none!important;
 }
 /*---------------------------------Navbar------------------------------------------ */
 nav{
@@ -65,6 +68,8 @@ nav .navbar-brand{
     margin: 0px auto 20px auto;
  }
 
+ 
+
  /* @media(max-width: 700px) 
  {
     .carousel-inner .carousel-caption h1{
@@ -116,4 +121,56 @@ nav .navbar-brand{
 }
 .fa-heart-o {
     color: #f44336;
+}
+/* ================================about us=============================== */
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col img{
+    width: 100%;
+
+}
+.about-col h1{
+    padding-top: 0;
+
+}
+.about-col p{
+    padding: 15px 0 25px;
+
+}
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red-btn:hover{
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
